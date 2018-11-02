@@ -3,6 +3,6 @@
 
 <mapper namespace="com.first.demo.Mapper.TestMapper">
     <select id="getTestCountById" parameterType="int" resultType="int">
-        select count(*) from test1 where id=#{id}
+        select count(*) from test where id=#{id}
     </select>
 </mapper>
